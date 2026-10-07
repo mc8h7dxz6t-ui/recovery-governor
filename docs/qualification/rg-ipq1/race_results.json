@@ -1,0 +1,7 @@
+{
+  "toctou_advisory_vs_dispatch": "NOT_EXECUTED",
+  "concurrent_case_mutation": "NOT_EXECUTED",
+  "rationale": "v1 harness single-threaded; no playbook timer reorder",
+  "verdict": "EXCLUDED_BOUNDED_LIMITATION",
+  "blocks_qualification": false
+}

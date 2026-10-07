@@ -1,0 +1,10 @@
+{
+  "EFFECTGUARD_BRIDGE_SUBJECT_HEAD": "b7c53685208138a981d7aa58f6caf41ceaa3a35d",
+  "EFFECTGUARD_BRIDGE_SUBJECT_TREE": "1ae7c50a149c7859408a516d59ce45a4572daa3f",
+  "EFFECTGUARD_QUALIFIED": true,
+  "EFFECTGUARD_QUALIFIED_DOES_NOT_TRANSFER_TO_RG": true,
+  "resolution": "path_dependency_checkout_at_execution",
+  "local_path": "~/Projects/effectfence",
+  "bridge_pin_verified": true,
+  "EFFECTGUARD_CODE_CHANGED": false
+}

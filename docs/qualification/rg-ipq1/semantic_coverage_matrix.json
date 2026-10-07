@@ -1,0 +1,63 @@
+{
+  "class_a": {
+    "RG-Q01": "BOUNDED",
+    "RG-Q02": "PASS",
+    "RG-Q03": "PASS",
+    "RG-Q04": "PASS",
+    "RG-Q05": "PASS",
+    "RG-Q06": "BOUNDED",
+    "RG-Q07": "BOUNDED",
+    "RG-Q08": "BOUNDED",
+    "RG-Q09": "PASS",
+    "RG-Q10": "BOUNDED",
+    "RG-Q11": "BOUNDED",
+    "RG-Q12": "BOUNDED",
+    "RG-Q13": "BOUNDED",
+    "RG-Q14": "BOUNDED",
+    "RG-Q15": "BOUNDED",
+    "RG-Q16": "BOUNDED",
+    "RG-Q17": "BOUNDED",
+    "RG-Q18": "PASS",
+    "RG-Q19": "BOUNDED",
+    "RG-Q20": "BOUNDED",
+    "RG-Q21": "BOUNDED",
+    "RG-Q22": "BOUNDED",
+    "RG-Q23": "BOUNDED",
+    "RG-Q24": "BOUNDED"
+  },
+  "class_b": "see bridge_results.json",
+  "class_c": {
+    "RG-C01": "PASS",
+    "RG-C02": "PASS",
+    "RG-C03": "PASS",
+    "RG-C04": "BOUNDED",
+    "RG-C05": "BOUNDED",
+    "RG-C06": "NOT_EXECUTED",
+    "RG-C07": "NOT_EXECUTED",
+    "RG-C08": "NOT_EXECUTED",
+    "RG-C09": "NOT_EXECUTED",
+    "RG-C10": "NOT_EXECUTED"
+  },
+  "class_d": {
+    "RG-D01": "PASS",
+    "RG-D02": "PASS",
+    "RG-D03": "BOUNDED",
+    "RG-D04": "BOUNDED",
+    "RG-D05": "NOT_EXECUTED",
+    "RG-D06": "NOT_EXECUTED",
+    "RG-D07": "NOT_EXECUTED",
+    "RG-D08": "NOT_EXECUTED"
+  },
+  "class_e": "see rg_e_traceability.json",
+  "class_f": {
+    "RG-F01": "PASS",
+    "RG-F02": "BOUNDED",
+    "RG-F03": "NOT_EXECUTED",
+    "RG-F04": "NOT_EXECUTED",
+    "RG-F05": "NOT_EXECUTED",
+    "RG-F06": "NOT_EXECUTED"
+  },
+  "class_g": "see gap_results.json",
+  "class_h": "see rg_h_traceability.json",
+  "class_i": "NOT_EXECUTED"
+}

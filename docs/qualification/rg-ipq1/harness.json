@@ -1,0 +1,11 @@
+{
+  "harness_id": "rg-ipq1-v1-rg_hostile",
+  "RG_QUALIFICATION_HARNESS_IS_PRODUCT_RUNTIME_DEPENDENCY": false,
+  "location": "crates/recovery-governor/tests/rg_hostile.rs",
+  "subject_head": "4d6cb052fd99f4e5678d25c4274615cd47681751",
+  "sha256": "4a1827ebbf6a9bf45f85984fac28a7b39b74e2c3412536c1ea2acd82eedafe7c",
+  "committed_on_subject": true,
+  "tests_executed": 22,
+  "tests_passed": 22,
+  "cargo_command": "cargo test --workspace"
+}

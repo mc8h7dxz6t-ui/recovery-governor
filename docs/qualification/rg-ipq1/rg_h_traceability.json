@@ -1,0 +1,25 @@
+{
+  "policy": "CF_001_CLOSURE_VIA_CLASS_H_V1_SLICE_WITH_DESIGN_ALIAS_MAP",
+  "source": "docs/qualification/RG_CF001_HOSTILE_ID_TRACEABILITY.md",
+  "cases": {
+    "RG-H01": { "test": "rg_h01_semantic_firewall_flags", "verdict": "PASS", "disposition": "SUPERSEDE_ALIAS" },
+    "RG-H02": { "test": "rg_h02_default_advisory_mode", "verdict": "PASS", "disposition": "SUPERSEDE_ALIAS" },
+    "RG-H03": { "test": "rg_h03_advisory_blocks_governed_dispatch", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H04": { "test": "rg_h04_governed_dispatch_then_advise", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H05": { "test": null, "verdict": "NOT_EXECUTED", "disposition": "DEFER_NO_PLAYBOOK_V1" },
+    "RG-H06": { "test": "rg_h09_revalidate_fresh", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H07": { "test": null, "verdict": "NOT_EXECUTED", "disposition": "DEFER_NO_PLAYBOOK_TICK" },
+    "RG-H08": { "test": "rg_h14_cross_case_isolation", "verdict": "PASS", "disposition": "REMAP_ALIAS" },
+    "RG-H09": { "test": "rg_h06_ancestry_chain", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H10": { "test": "rg_h15_pack_digest_tamper", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H11": { "test": "rg_h11_lost_ack_holds", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H12": { "test": "rg_h12_hold_advice_not_proceed", "verdict": "PASS", "disposition": "REMAP_ALIAS" },
+    "RG-H13": { "test": "rg_h13_substrate_pin_in_pack", "verdict": "PASS", "disposition": "PASS" },
+    "RG-H14": { "test": "rg_h17_export_profile_blocked", "verdict": "PASS", "disposition": "PARTIAL_ALIAS" },
+    "RG-H15": { "test": "rg_h15_pack_digest_tamper", "verdict": "PASS", "disposition": "PASS" },
+    "RG-H16": { "test": "rg_h14_cross_case_isolation", "verdict": "PASS", "disposition": "NO_FORK_SESSIONSTORE" },
+    "RG-H17": { "test": "rg_h17_export_profile_blocked", "verdict": "PASS", "disposition": "CLAIM_LINT_STATIC" },
+    "RG-H18": { "test": null, "verdict": "NOT_EXECUTED", "disposition": "RESTART_EXCLUDED" }
+  },
+  "class_h_executed_slice": "PASS_WITH_BOUNDED_LIMITATIONS"
+}

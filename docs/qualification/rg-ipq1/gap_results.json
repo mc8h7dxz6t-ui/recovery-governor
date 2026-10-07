@@ -1,0 +1,8 @@
+{
+  "GAP-01": { "probe": "RG-G01", "verdict": "PASS", "evidence": "rg_h11/rg_h12 HOLD paths; no third SafeNext variant" },
+  "GAP-02": { "probe": "RG-G02", "verdict": "PASS", "evidence": "rg_e04 request_restart via EG" },
+  "GAP-03": { "probe": "RG-G03", "verdict": "PASS", "evidence": "advisory uses Fabric strings only" },
+  "GAP-04": { "probe": "RG-G04", "verdict": "PASS", "evidence": "CaseStore in-memory; no durability claims" },
+  "GAP-05": { "probe": "RG-G05", "verdict": "PASS", "evidence": "FABRIC_M3_SUBSTRATE_PIN in pack + manifest reconciliation" },
+  "BLOCKED_FABRIC_INTERFACE": false
+}

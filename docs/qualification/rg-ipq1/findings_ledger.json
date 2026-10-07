@@ -1,0 +1,48 @@
+{
+  "findings": [
+    {
+      "id": "BL-RG-IPQ1-01",
+      "severity": "BOUNDED",
+      "status": "ACCEPTED_LIMITATION",
+      "case": "RG-R01..R06",
+      "summary": "Class I real provider not executed; design BL-01"
+    },
+    {
+      "id": "BL-RG-IPQ1-02",
+      "severity": "BOUNDED",
+      "status": "ACCEPTED_LIMITATION",
+      "case": "LANE_E_GITHUB_RESTART_AMBIGUITY",
+      "summary": "RG_PROCESS_RESTART_CASE excluded; RG-H18 NOT_EXECUTED"
+    },
+    {
+      "id": "BL-RG-IPQ1-03",
+      "severity": "BOUNDED",
+      "status": "ACCEPTED_LIMITATION",
+      "case": "CLASS_A_RG-Q",
+      "summary": "Dedicated RG-Q01..Q24 matrix not fully instantiated; core invariants covered via Class H/E slice"
+    },
+    {
+      "id": "BL-RG-IPQ1-04",
+      "severity": "BOUNDED",
+      "status": "ACCEPTED_LIMITATION",
+      "case": "CF-001_DESIGN_H",
+      "summary": "Design-aligned Class H partially deferred (playbook/catalog); v1 slice aliases per traceability doc"
+    },
+    {
+      "id": "RG-FIND-LINT-001",
+      "severity": "LOW",
+      "status": "WAIVED",
+      "case": "CLAIM_LINT",
+      "summary": "claim_lint.sh flags negation phrase in FIRST_PRODUCT_BUILD_REPORT.md line 157; not an outward qualified claim"
+    },
+    {
+      "id": "BL-RG-IPQ1-05",
+      "severity": "BOUNDED",
+      "status": "ACCEPTED_LIMITATION",
+      "case": "EFFECTGUARD_PATH_DEP",
+      "summary": "Bridge resolved via local checkout pin b7c5368; not versioned crate pin"
+    }
+  ],
+  "unresolved_critical": 0,
+  "unresolved_high": 0
+}

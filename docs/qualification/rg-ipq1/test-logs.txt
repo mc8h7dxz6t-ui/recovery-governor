@@ -1,0 +1,84 @@
+=== RG-IPQ-1 credentialed execution 2026-10-07T22:04:19Z ===
+RG_SUBJECT=4d6cb052fd99f4e5678d25c4274615cd47681751
+EG_PIN=b7c53685208138a981d7aa58f6caf41ceaa3a35d
+FABRIC=135bbd932553613fa3dd758d73143401068a4cb8
+=== cargo test ===
+   Compiling effectfence-pack v0.1.0 (/Users/philipmacleod/Projects/effectfence/crates/effectfence-pack)
+   Compiling effectfence-verify v0.1.0 (/Users/philipmacleod/Projects/effectfence/crates/effectfence-verify)
+   Compiling effectguard v0.1.0 (/Users/philipmacleod/Projects/effectfence/crates/effectguard)
+   Compiling recovery-governor v0.1.0 (/Users/philipmacleod/Projects/recovery-governor/crates/recovery-governor)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.54s
+     Running unittests src/lib.rs (target/debug/deps/recovery_governor-16923f537c15ce5d)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/rg_hostile.rs (target/debug/deps/rg_hostile-d3e03acf6e4737b2)
+
+running 22 tests
+test rg_h01_semantic_firewall_flags ... ok
+test rg_h07_unknown_case ... ok
+test rg_h02_default_advisory_mode ... ok
+test rg_h06_ancestry_chain ... ok
+test rg_h08_advise_without_operation ... ok
+test rg_h03_advisory_blocks_governed_dispatch ... ok
+test rg_e03_revalidate_and_mode_flip ... ok
+test rg_h11_lost_ack_holds ... ok
+test rg_h05_advisory_pack_mode ... ok
+test rg_e02_parent_child_flow ... ok
+test rg_h04_governed_dispatch_then_advise ... ok
+test rg_e01_happy_path ... ok
+test rg_h17_export_profile_blocked ... ok
+test rg_h09_revalidate_fresh ... ok
+test rg_h10_revalidate_without_advice_stale ... ok
+test rg_e04_restart_when_proceed ... ok
+test rg_h12_hold_advice_not_proceed ... ok
+test rg_h15_pack_digest_tamper ... ok
+test rg_h16_child_no_implicit_parent_ops ... ok
+test rg_h13_substrate_pin_in_pack ... ok
+test rg_h14_cross_case_isolation ... ok
+test rg_h18_leaf_operation_wins ... ok
+
+test result: ok. 22 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running unittests src/lib.rs (target/debug/deps/recovery_governor_pack-a7a0d86563d5d4b1)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests recovery_governor
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests recovery_governor_pack
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+=== claim_lint ===
+/Users/philipmacleod/Projects/recovery-governor/RECOVERY_GOVERNOR_FIRST_PRODUCT_BUILD_REPORT.md:157:Independent product qualification design is the only authorized follow-on (`RECOVERY_GOVERNOR_INDEPENDENT_PRODUCT_QUALIFICATION_DESIGN`). Do not set `RECOVERY_GOVERNOR_QUALIFIED=true` until that charter executes.
+claim lint: forbidden phrase: RECOVERY_GOVERNOR_QUALIFIED=true
+
+=== secret_scan (post-test) ===
+secret scan: clean
+=== claim_lint (post-test) ===
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_CLAIM_INVENTORY.md:28:| RG-C-009 | Trust-boundary passport / high-assurance export | **NOT_CLAIMED** | LE-F-002 |
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_PRODUCT_CONTRACT.md:192:- Trust-boundary passport (LE-F-002)
+claim lint: forbidden phrase: trust-boundary passport
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_SEMANTIC_OWNERSHIP.md:89:| RG-D-008 | Store `SAFE_TO_RETRY` as durable fact | Programme non-claim |
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_INVARIANTS.md:56:| INV-16 | Fabric error never mapped to “safe to retry” | `RG_FABRIC_ERROR_NEVER_BECOMES_SAFE_TO_RETRY` |
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_CLAIM_INVENTORY.md:44:- `SAFE_TO_RETRY` as product fact
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_PRODUCT_CONTRACT.md:190:- `SAFE_TO_RETRY` as stored fact
+claim lint: forbidden phrase: SAFE_TO_RETRY
+/Users/philipmacleod/Projects/recovery-governor/docs/qualification/RECOVERY_GOVERNOR_CLAIM_QUALIFICATION_MATRIX.md:12:**Non-claims (preserved):** universal restart safety, Fabric programme crown, EffectGuard qual transfer, LE-F export, exactly-once, M4 witness, playbook catalog completeness.
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_PRODUCT_CONTRACT.md:185:- Universal external exactly-once / universal external safety (programme `non_claims`)
+/Users/philipmacleod/Projects/recovery-governor/docs/design/RECOVERY_GOVERNOR_CLAIM_INVENTORY.md:27:| RG-C-008 | Exactly-once external effects | **NOT_CLAIMED** | programme `non_claims` |
+claim lint: forbidden phrase: exactly-once
+/Users/philipmacleod/Projects/recovery-governor/RECOVERY_GOVERNOR_FIRST_PRODUCT_BUILD_REPORT.md:157:Independent product qualification design is the only authorized follow-on (`RECOVERY_GOVERNOR_INDEPENDENT_PRODUCT_QUALIFICATION_DESIGN`). Do not set `RECOVERY_GOVERNOR_QUALIFIED=true` until that charter executes.
+claim lint: forbidden phrase: RECOVERY_GOVERNOR_QUALIFIED=true
+claim_lint exit=1

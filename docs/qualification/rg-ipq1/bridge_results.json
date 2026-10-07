@@ -1,0 +1,18 @@
+{
+  "class_b": {
+    "RG-B01": { "verdict": "PASS", "evidence": "rg_h04_governed_dispatch_then_advise" },
+    "RG-B02": { "verdict": "PASS", "evidence": "rg_e04_restart_when_proceed" },
+    "RG-B03": { "verdict": "PASS", "evidence": "rg_h03_advisory_blocks_governed_dispatch" },
+    "RG-B04": { "verdict": "PASS", "evidence": "static_embed_eg_no_duplicate_sessionstore" },
+    "RG-B05": { "verdict": "BOUNDED", "evidence": "fixture_lab_label_only" },
+    "RG-B06": { "verdict": "PASS", "evidence": "rg_h11_lost_ack_holds" },
+    "RG-B07": { "verdict": "PASS", "evidence": "rg_h17_export_profile_blocked" },
+    "RG-B08": { "verdict": "BOUNDED", "evidence": "wm_profile_not_matrix_exhaustive" },
+    "RG-B09": { "verdict": "BOUNDED", "evidence": "fault_matrix_subset" },
+    "RG-B10": { "verdict": "PASS", "evidence": "rg_h17_export_profile_blocked" },
+    "RG-B11": { "verdict": "NOT_EXECUTED" },
+    "RG-B12": { "verdict": "NOT_EXECUTED" }
+  },
+  "effectguard_pin_at_execution": "b7c53685208138a981d7aa58f6caf41ceaa3a35d",
+  "summary": "PASS_WITH_BOUNDED_LIMITATIONS"
+}

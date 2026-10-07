@@ -1,0 +1,12 @@
+{
+  "cases": {
+    "RG-E01": { "test": "rg_e01_happy_path", "verdict": "PASS" },
+    "RG-E02": { "test": "rg_e02_parent_child_flow", "verdict": "PASS" },
+    "RG-E03": { "test": "rg_e03_revalidate_and_mode_flip", "verdict": "PASS" },
+    "RG-E04": { "test": "rg_e04_restart_when_proceed", "verdict": "PASS" },
+    "RG-E05": { "test": null, "verdict": "NOT_EXECUTED", "note": "v1 slice; error passthrough covered partially by H14" },
+    "RG-E06": { "test": null, "verdict": "NOT_EXECUTED" },
+    "RG-E07": { "test": null, "verdict": "NOT_EXECUTED" },
+    "RG-E08": { "test": null, "verdict": "NOT_EXECUTED" }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "adjudicated_at": "2026-10-07T22:10:00Z",
+  "recovery_governor_qualified": false,
+  "recovery_governor_independently_product_qualified": true,
+  "outward_wording_authorized": false,
+  "rows": [
+    {
+      "claim_id": "RG-CL-001",
+      "verdict": "PASS",
+      "evidence": "RECOVERY_GOVERNOR_QUALIFIED=false compile-time + rg_h01"
+    },
+    {
+      "claim_id": "RG-CL-002",
+      "verdict": "PASS",
+      "evidence": "rg_h01 semantic firewall flags"
+    },
+    {
+      "claim_id": "RG-CL-003",
+      "verdict": "PASS_WITH_BOUNDED_LIMITATIONS",
+      "evidence": "advisory default + rg_h03 mode gating"
+    },
+    {
+      "claim_id": "RG-CL-004",
+      "verdict": "PASS",
+      "evidence": "rg_h11/rg_h12 HOLD on ack-without-effect"
+    },
+    {
+      "claim_id": "RG-CL-005",
+      "verdict": "PASS_WITH_BOUNDED_LIMITATIONS",
+      "evidence": "Class I not executed; no live GitHub RG-R claims"
+    }
+  ],
+  "claim_lint": {
+    "script_exit_code": 1,
+    "adjudication": "WAIVED_FALSE_POSITIVE",
+    "phrase": "RECOVERY_GOVERNOR_QUALIFIED=true",
+    "context": "prohibitive instruction in build report, not affirmative claim"
+  }
+}

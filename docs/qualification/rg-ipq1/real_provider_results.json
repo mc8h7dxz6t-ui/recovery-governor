@@ -1,0 +1,12 @@
+{
+  "class_i": {
+    "RG-R01": "NOT_EXECUTED",
+    "RG-R02": "NOT_EXECUTED",
+    "RG-R03": "NOT_EXECUTED",
+    "RG-R04": "NOT_EXECUTED",
+    "RG-R05": "NOT_EXECUTED",
+    "RG-R06": "NOT_EXECUTED"
+  },
+  "RG_IPQ1_FRA_ORACLE_AVAILABLE": false,
+  "verdict": "EXCLUDED_PER_DESIGN_BL-01"
+}

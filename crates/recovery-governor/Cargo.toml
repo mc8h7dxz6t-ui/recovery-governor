@@ -1,0 +1,20 @@
+[package]
+name = "recovery-governor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Recovery Governor product API — case-level SafeNext advisory over Fabric M3"
+
+[dependencies]
+recovery-governor-pack.workspace = true
+effectfence_pack.workspace = true
+effectguard.workspace = true
+fabric-m3-consequence.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+effectfence_pack.workspace = true

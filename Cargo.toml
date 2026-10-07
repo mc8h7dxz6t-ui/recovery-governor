@@ -1,0 +1,24 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/recovery-governor-pack",
+    "crates/recovery-governor",
+]
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+rust-version = "1.75"
+
+[workspace.dependencies]
+recovery-governor-pack = { path = "crates/recovery-governor-pack" }
+effectguard = { path = "../effectfence/crates/effectguard" }
+fabric-m3-consequence = { path = "../consequence-fabric/fabric-integration/crates/fabric-m3-consequence" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+hex = "0.4"
+effectfence_pack = { package = "effectfence-pack", path = "../effectfence/crates/effectfence-pack" }
+thiserror = "2"
+uuid = { version = "1", features = ["v4", "serde"] }
+tempfile = "3"

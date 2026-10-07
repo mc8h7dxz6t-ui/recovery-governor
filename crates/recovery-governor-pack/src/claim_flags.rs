@@ -1,0 +1,22 @@
+//! Frozen claim flags — product echo only; not independent qualification.
+
+pub const FABRIC_M3_SUBSTRATE_PIN: &str = "135bbd932553613fa3dd758d73143401068a4cb8";
+pub const FABRIC_M3_QUAL_SUBJECT_PIN: &str = "fc62c3752ee8fc5bb596c28629e220462d49c7f3";
+pub const FABRIC_M3_INTEGRATION_ACCEPTANCE_TREE: &str = "4e724089c1df1a8bf4f891558983a5d6aad5fc28";
+
+pub const RECOVERY_GOVERNOR_FABRIC_CANONICAL_REMOTE: &str = "doctrine";
+pub const RECOVERY_GOVERNOR_FABRIC_CANONICAL_REF: &str = "refs/heads/fabric/integration-m3-135bbd9";
+pub const RECOVERY_GOVERNOR_FABRIC_DEPENDENCY_SCOPE: &str =
+    "GLOBALLY_AUTHORITATIVE_NAMED_INTEGRATION_REF";
+
+pub const DOCTRINE_MAIN_IS_RG_FABRIC_DEPENDENCY: bool = false;
+
+pub const RECOVERY_GOVERNOR_CAN_MUTATE_CANONICAL_TRUTH: bool = false;
+pub const RECOVERY_GOVERNOR_CAN_OVERRIDE_SAFENEXT: bool = false;
+pub const RECOVERY_GOVERNOR_CAN_DEFINE_NEW_TRUTH_STATE: bool = false;
+pub const RECOVERY_GOVERNOR_DEFAULT_EXECUTION_MODE: &str = "ADVISORY";
+
+pub const RECOVERY_GOVERNOR_QUALIFIED: bool = false;
+pub const RECOVERY_GOVERNOR_USES_FABRIC_SEMANTICS: bool = true;
+
+pub const FABRIC_CODE_CHANGED: bool = false;

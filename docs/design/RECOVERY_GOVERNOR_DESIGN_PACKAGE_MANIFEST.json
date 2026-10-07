@@ -1,0 +1,50 @@
+{
+  "RECOVERY_GOVERNOR_DESIGN_PACKAGE_ID": "rg-design-v0-e7aae88949bd74f3",
+  "PRODUCT_DESIGN_SCOPE_FROZEN": "rg-design-v0",
+  "source": "cursor_project_store",
+  "source_path": "docs/RECOVERY_GOVERNOR_*.md",
+  "copied_at": "2026-10-07T21:00:00+01:00",
+  "DESIGN_FILE_RECONSTRUCTED": false,
+  "files": [
+    {
+      "file": "RECOVERY_GOVERNOR_ADVERSARIAL_MATRIX.md",
+      "sha256": "ccd2786be7d32311fc355d149ed716a63f8e87ca57e000c6c163a47883d65ee7",
+      "bytes": 3734
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_API_CONTRACT.md",
+      "sha256": "67092246369c527672a33665e71b0249b173c27a9f129719ddf25cef87984d14",
+      "bytes": 5177
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_CLAIM_INVENTORY.md",
+      "sha256": "a5c778f870c264fa1f811d9da45f33a91db52194dc470b57d49e37886813bade",
+      "bytes": 3235
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_DESIGN_GATE.md",
+      "sha256": "9a2eee0b983e5a646c28271602d27e3d78ebc5404bd85d9394c874ef62adfd38",
+      "bytes": 6376
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_FABRIC_INTERFACE_MAP.md",
+      "sha256": "ae00f41bc01f9d5e53ee9efe9e2662986a7b7a378b9a4f939e0eb9f99af71472",
+      "bytes": 5781
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_INVARIANTS.md",
+      "sha256": "5e6444861e71ef357cb75729fa07ac4b2ec56974a78a9e99c56653df6e3c19c1",
+      "bytes": 3751
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_PRODUCT_CONTRACT.md",
+      "sha256": "1741e3c3bfa62971d8f68f1095757d57994c0143ad32dba73ef5c6dbd3f696db",
+      "bytes": 12348
+    },
+    {
+      "file": "RECOVERY_GOVERNOR_SEMANTIC_OWNERSHIP.md",
+      "sha256": "b6a9b6f00edddeb4577d8c903bd2a4caef2177954ece71b6a090090514b01acb",
+      "bytes": 5386
+    }
+  ]
+}

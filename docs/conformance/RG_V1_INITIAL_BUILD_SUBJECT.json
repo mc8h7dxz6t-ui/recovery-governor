@@ -1,0 +1,9 @@
+{
+  "RG_V1_INITIAL_BUILD_SUBJECT": "4d6cb052fd99f4e5678d25c4274615cd47681751",
+  "RG_V1_INITIAL_BUILD_TREE": "e0b433f1f3fccc352bb828df7d7f4a3cd657d081",
+  "RG_V1_PRODUCT_CODE_SUBJECT": "d90d92d008b02dd6f5f5a26b4008b43374ef000e",
+  "RG_V1_PRODUCT_CODE_TREE": "383cee4def3cea9fcdd3b0e119c4ebe130473cac",
+  "tag": "RG_V1_INITIAL_BUILD_SUBJECT",
+  "frozen_at": "2026-10-07T21:05:00+01:00",
+  "note": "Initial build report commit; product Rust unchanged since d90d92d."
+}

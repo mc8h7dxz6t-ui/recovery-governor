@@ -1,0 +1,59 @@
+{
+  "audit_tranche": "RECOVERY_GOVERNOR_V1_PRESERVATION_DESIGN_CONFORMANCE_AND_PUBLICATION",
+  "subject_head": "4d6cb052fd99f4e5678d25c4274615cd47681751",
+  "subject_tree": "e0b433f1f3fccc352bb828df7d7f4a3cd657d081",
+  "design_package_id": "rg-design-v0-e7aae88949bd74f3",
+  "DESIGN_FILE_RECONSTRUCTED": false,
+  "verdict": "PASS_WITH_BOUNDED_LIMITATIONS",
+  "load_bearing_mismatch": false,
+  "findings": [
+    {
+      "id": "CF-001",
+      "severity": "HIGH",
+      "load_bearing": false,
+      "title": "RG-H01..H18 harness IDs do not match adversarial matrix attack methods",
+      "design_ref": "RECOVERY_GOVERNOR_ADVERSARIAL_MATRIX.md",
+      "build_ref": "crates/recovery-governor/tests/rg_hostile.rs",
+      "status": "OPEN_BOUNDED",
+      "mitigation": "Rename or remap tests before independent product qualification; V1 slice tests still pass."
+    },
+    {
+      "id": "CF-002",
+      "severity": "MEDIUM",
+      "load_bearing": false,
+      "title": "GovernorSession / playbook catalog API not implemented",
+      "design_ref": "RECOVERY_GOVERNOR_API_CONTRACT.md",
+      "build_ref": "crates/recovery-governor/src/case.rs CaseStore",
+      "status": "OPEN_BOUNDED",
+      "mitigation": "Documented V1 thin slice (case + advisory SafeNext + governed bridge)."
+    },
+    {
+      "id": "CF-003",
+      "severity": "MEDIUM",
+      "load_bearing": false,
+      "title": "Playbook invariants INV-12..INV-14 not exercisable",
+      "design_ref": "RECOVERY_GOVERNOR_INVARIANTS.md",
+      "status": "NOT_APPLICABLE_V1",
+      "mitigation": "Deferred to playbook engine tranche."
+    },
+    {
+      "id": "CF-004",
+      "severity": "LOW",
+      "load_bearing": false,
+      "title": "Case ancestry exceeds single-operation v0 design slice",
+      "design_ref": "RECOVERY_GOVERNOR_PRODUCT_CONTRACT.md §14",
+      "status": "ACCEPTED_V1_EXTENSION",
+      "mitigation": "Ancestry is read-only graph; does not arm dispatch cross-leaf without bind."
+    }
+  ],
+  "pass_areas": [
+    "FW-01..FW-06 claim flags @ recovery-governor-pack",
+    "Fabric pin 135bbd9 / tree 4e724089",
+    "FABRIC_CODE_CHANGED=false",
+    "EffectGuard bridge via embedded SessionStore (governed_dispatch, request_restart)",
+    "SafeNext projection only in advise_safe_next",
+    "Advisory default ExecutionMode::Advisory",
+    "revalidate_advisory fingerprint stale detection",
+    "GAP-01..05 design mitigations align with interface map"
+  ]
+}

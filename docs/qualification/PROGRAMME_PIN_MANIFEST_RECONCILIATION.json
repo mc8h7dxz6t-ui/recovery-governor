@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-07T21:15:00+01:00",
+  "context_path": "docs/consequence-fabric/PROGRAMME_PIN_MANIFEST.json",
+  "mac_path": "~/Projects/consequence-fabric/fabric-integration (git verify)",
+  "PROGRAMME_PIN_MANIFEST_DRIFT": false,
+  "reconciliation_method": "git_rev_parse_vs_manifest_fields",
+  "fields_verified": {
+    "integration.current_accepted_head.full": {
+      "manifest": "135bbd932553613fa3dd758d73143401068a4cb8",
+      "mac_local_branch": "135bbd932553613fa3dd758d73143401068a4cb8",
+      "match": true
+    },
+    "integration.current_accepted_head.tree_short": {
+      "manifest": "4e724089",
+      "mac_HEAD_tree": "4e724089c1df1a8bf4f891558983a5d6aad5fc28",
+      "match": true
+    },
+    "effectguard.product_subject_head.full": {
+      "manifest": "b7c53685208138a981d7aa58f6caf41ceaa3a35d",
+      "mac_effectfence_tag_effectguard-v1-qualified": "b7c53685208138a981d7aa58f6caf41ceaa3a35d",
+      "match": true
+    }
+  },
+  "metadata_only_note": "Manifest null tree_full fields reconciled via Mac git; no manifest file edited in this tranche."
+}

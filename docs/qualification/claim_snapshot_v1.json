@@ -1,0 +1,21 @@
+{
+  "snapshot_id": "recovery-governor-claim-snapshot-v1",
+  "qualified_product_subject_head": "4d6cb052fd99f4e5678d25c4274615cd47681751",
+  "recovery_governor_qualified": true,
+  "recovery_governor_build": "QUALIFIED_BOUNDED_V1",
+  "recovery_governor_fabric_dependency_scope": "GLOBALLY_AUTHORITATIVE_NAMED_INTEGRATION_REF",
+  "recovery_governor_can_mutate_canonical_truth": false,
+  "effectguard_qualified_does_not_transfer_to_rg": true,
+  "lane_e_github_restart_ambiguity": "NOT_EXECUTED",
+  "rg_process_restart_case": "EXCLUDED_BOUNDED_LIMITATION",
+  "rg_ipq1_class_i": "NOT_EXECUTED",
+  "non_claims_preserved": [
+    "RG-NC-006",
+    "RG-NC-016",
+    "RG-NC-011",
+    "RG-NC-012",
+    "RG-NC-009"
+  ],
+  "customer_claim_map": "docs/RECOVERY_GOVERNOR_CUSTOMER_CLAIM_MAP.md",
+  "claim_traceability": "docs/RECOVERY_GOVERNOR_CLAIM_TRACEABILITY.md"
+}

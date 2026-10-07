@@ -1,6 +1,6 @@
 # Recovery Governor — claim inventory (design frozen)
 
-**Status:** `RG_CUSTOMER_CLAIMS_ACTIVATED=false`  
+**Status:** `RG_CUSTOMER_CLAIMS_ACTIVATED=true` (bounded IPQ-1; see `docs/RECOVERY_GOVERNOR_CUSTOMER_CLAIM_MAP.md`)  
 **Scope:** `PRODUCT_DESIGN_SCOPE_FROZEN=rg-design-v0`  
 **Activation:** requires future RGQ qualification + charter — **not** this tranche.
 

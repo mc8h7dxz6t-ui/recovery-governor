@@ -1,8 +1,8 @@
 {
   "adjudicated_at": "2026-10-07T22:10:00Z",
-  "recovery_governor_qualified": false,
+  "recovery_governor_qualified": true,
   "recovery_governor_independently_product_qualified": true,
-  "outward_wording_authorized": false,
+  "outward_wording_authorized": true,
   "rows": [
     {
       "claim_id": "RG-CL-001",

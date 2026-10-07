@@ -1,0 +1,18 @@
+{
+  "schema": "recovery_governor.qualification_state/v1",
+  "lane": "RG-IPQ-1",
+  "qualified_product_subject_head": "4d6cb052fd99f4e5678d25c4274615cd47681751",
+  "qualified_product_subject_tree": "e0b433f1f3fccc352bb828df7d7f4a3cd657d081",
+  "recovery_governor_qualified": true,
+  "recovery_governor_independently_product_qualified": true,
+  "ipq1_verdict": "PASS_WITH_BOUNDED_LIMITATIONS",
+  "recovery_governor_fabric_dependency_scope": "GLOBALLY_AUTHORITATIVE_NAMED_INTEGRATION_REF",
+  "recovery_governor_fabric_canonical_remote": "doctrine",
+  "recovery_governor_fabric_canonical_ref": "refs/heads/fabric/integration-m3-135bbd9",
+  "fabric_dependency_head": "135bbd932553613fa3dd758d73143401068a4cb8",
+  "fabric_dependency_tree": "4e724089c1df1a8bf4f891558983a5d6aad5fc28",
+  "effectguard_bridge_subject_head": "b7c53685208138a981d7aa58f6caf41ceaa3a35d",
+  "claim_freeze_at": "2026-10-07T23:15:00+01:00",
+  "evidence_bundle": "docs/qualification/rg-ipq1/",
+  "product_qualification_scope_frozen": "v1-4d6cb05"
+}

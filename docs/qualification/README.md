@@ -1,6 +1,6 @@
-# Recovery Governor — IPQ-1 qualification (design)
+# Recovery Governor — IPQ-1 qualification
 
-Design-only tranche. **No qualification execution** in this folder until `RECOVERY_GOVERNOR_RG_IPQ1_EXECUTION`.
+IPQ-1 execution evidence: [rg-ipq1/](./rg-ipq1/). Integration + claim freeze: [RECOVERY_GOVERNOR_QUALIFICATION_INTEGRATION_AND_CLAIM_FREEZE_REPORT.md](./RECOVERY_GOVERNOR_QUALIFICATION_INTEGRATION_AND_CLAIM_FREEZE_REPORT.md).
 
 | Artefact | File |
 | --- | --- |

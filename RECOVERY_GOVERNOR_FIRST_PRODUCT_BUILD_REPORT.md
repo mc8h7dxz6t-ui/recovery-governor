@@ -96,8 +96,8 @@ FABRIC_CODE_CHANGED=false
 | --- | --- |
 | `RECOVERY_GOVERNOR_CANONICAL_REPO` | `~/Projects/recovery-governor` |
 | Branch | `main` (local only) |
-| HEAD | `d90d92d008b02dd6f5f5a26b4008b43374ef000e` |
-| Tree | `383cee4def3cea9fcdd3b0e119c4ebe130473cac` |
+| HEAD | `4d6cb052fd99f4e5678d25c4274615cd47681751` |
+| Tree | `git rev-parse HEAD^{tree}` @ report commit |
 | `GIT_STATUS` | clean @ local commit |
 
 **Fabric substrate (read-only, unchanged):**
@@ -142,8 +142,8 @@ BLOCKED_FABRIC_INTERFACE=false
 HOSTILE_RG_H01_H18=PASS
 FLOW_RG_E01_E04=PASS
 PRODUCT_COMMITS=1
-HEAD=d90d92d008b02dd6f5f5a26b4008b43374ef000e
-TREE=383cee4def3cea9fcdd3b0e119c4ebe130473cac
+HEAD=4d6cb052fd99f4e5678d25c4274615cd47681751
+TREE=see git rev-parse HEAD^{tree} @ HEAD
 BRANCH=main
 EFFECTGUARD_QUALIFIED=true
 EFFECTGUARD_SUBJECT_UNTOUCHED=true
